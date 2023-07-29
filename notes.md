@@ -5,6 +5,8 @@ sudo shutdown -h now
 sudo shutdown -r now
 
 ps -aef | grep python3 >> check script is running
+ps- ef for all running processes
+sudo killall python3 >> to kill all python scripts
 
 ### login
 
@@ -20,7 +22,7 @@ ssh raspberrypi.local
 
 arp -a >> get list of services
 find `b8-27-eb...`
-ssh raspberrypi@ip
+ssh pi@192.168.128.228
 
 scp -r Documents/Jenny-Projects/07-15-2023-hackathon/Dexter/ pi@raspberrypi.local:/home/pi
 
@@ -47,3 +49,17 @@ chat:write
 chat:write:customize
 files:read
 files:write
+
+# open cv stuff
+
+pip install numpy
+pip install matplotlib
+pip install opencv-python
+
+refs
+**https://core-electronics.com.au/guides/object-identify-raspberry-pi/
+**https://cocodataset.org/#download
+https://medium.com/swlh/dog-breed-classifier-a900d4cc95be
+https://towardsdatascience.com/a-dog-detector-and-breed-classifier-4feb99e1f852
+
+https://medium.com/@divyanshuDeveloper/a-simple-animal-classifier-from-scratch-using-keras-61ef0edfcb1f
