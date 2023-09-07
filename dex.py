@@ -1,6 +1,9 @@
+# import os
+# os.chdir('/home/pi/Dexter')
 import ssl
 from datetime import datetime
 from time import sleep
+
 
 import certifi
 import RPi.GPIO as GPIO
@@ -9,9 +12,11 @@ from picamera import PiCamera
 
 from process import processImage
 
-SLACK_BOT_TOKEN=''
-SLACK_SIGNING_SECRET=''
-SLACK_APP_CHANNEL=''
+SLACK_BOT_TOKEN='xoxb-367476445521-5570460785970-1JM0XZG0tvFvBVnuHrbZx3In'
+SLACK_SIGNING_SECRET='b6959abc7459745a7f9b0839a93999a5'
+#'CRREV5C9L' - #dexter
+SLACK_APP_CHANNEL='C05HXB4QTFF'
+#SLACK_APP_CHANNEL='C05GBQUKUF9'
 
 CHANNEL = 17
 GPIO.setmode(GPIO.BCM)
@@ -57,7 +62,7 @@ def soundCallback(channel):
             isDog = processImage('./dex.jpg')
             if(len(isDog)):
                 print('uploading...🐶')
-                upload()           
+                upload()
             counter = 0
             sleep(10)
 
@@ -79,7 +84,7 @@ def send():
 def upload():
     name=f"{datetime.now()}.jpg"
     client.files_upload_v2(channel=SLACK_APP_CHANNEL, file="./dex.jpg", filename=name, initial_comment="🔔")
-   
+
 
 GPIO.add_event_detect(CHANNEL, GPIO.BOTH, bouncetime=300)
 GPIO.add_event_callback(CHANNEL, soundCallback)
