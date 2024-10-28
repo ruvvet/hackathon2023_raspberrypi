@@ -11,14 +11,14 @@ Raspberry pi + python + ml image detection model project
 
 # Pi in progress
 
-| ![pi](./assets\PXL_20230717_132551238.jpg) | ![pi](./assets\PXL_20230717_132601516.jpg)          |
+| ![pi](./assets/PXL_20230717_132551238.jpg) | ![pi](./assets/PXL_20230717_132601516.jpg)          |
 | ------------------------------------------ | --------------------------------------------------- |
-| ![pi](./assets\PXL_20230717_185540514.jpg) | ![pi](./assets\PXL_20230717_223537960.jpg)          |
-| ![pi](./assets\PXL_20230719_140228526.jpg) | ![pi](./assets\PXL_20230719_143433925.PORTRAIT.jpg) |
-| ![pi](./assets\PXL_20230719_193640726.jpg) | ![pi](./assets\PXL_20230720_164927465.jpg)          |
+| ![pi](./assets/PXL_20230717_185540514.jpg) | ![pi](./assets/PXL_20230717_223537960.jpg)          |
+| ![pi](./assets/PXL_20230719_140228526.jpg) | ![pi](./assets/PXL_20230719_143433925.PORTRAIT.jpg) |
+| ![pi](./assets/PXL_20230719_193640726.jpg) | ![pi](./assets/PXL_20230720_164927465.jpg)          |
 
 # Result
 
-| ![slack channel](./assets/image.png)                      | ![slack channel](assets\2024-06-06-16_33_27.452531.jpg)   |
+| ![slack channel](./assets/image.png)                      | ![slack channel](./assets/2024-06-06-16_33_27.452531.jpg) |
 | --------------------------------------------------------- | --------------------------------------------------------- |
-| ![slack channel](./assets\2024-06-13-17_06_04.088149.jpg) | ![slack channel](./assets\2024-06-13-17_09_54.476034.jpg) |
+| ![slack channel](./assets/2024-06-13-17_06_04.088149.jpg) | ![slack channel](./assets/2024-06-13-17_09_54.476034.jpg) |
